@@ -35,11 +35,11 @@ function SignIn() {
                 <button type="submit" class="btn btn-primary mt-2">Submit</button>
                 <br/>
                 <div className="signup mt-2">
-                    <div>No account? <a class="signup" href="/signUp"> Sign up</a></div>
+                    <div>No account? <a class="signup" href="/test/#/signUp"> Sign up</a></div>
                 </div>
                 <br/>
                 <div className="signup mt-2">
-                    <div>Forgot password? <a class="reset" href="/resetPassword">Reset password</a></div>
+                    <div>Forgot password? <a class="reset" href="/test/#/resetPassword">Reset password</a></div>
                 </div>
 
             </form>
