@@ -16,15 +16,15 @@ function App() {
       <Nav />
       <div >
         <Routes>
-          <Route path='/test/#/' element={<Home />} />
-          <Route path='/test/#/contact' element={<Home />} />
-          <Route path='/test/#/about' element={<Home />} />
-          <Route path='/test/#/profile' element={<Profile />} />
-          <Route path='/test/#/recipes' element={<Recipes />} />
-          <Route path='/test/#/signIn' element={<SignIn />} />
-          <Route path='/test/#/signUp' element={<SignUp />} />
-          <Route path='/test/#/resetPassword' element={<ResetPassword />} />
-          <Route path="/test/#/*" element={<NotFound/>} />
+          <Route path='/' element={<Home />} />
+          <Route path='/contact' element={<Home />} />
+          <Route path='/about' element={<Home />} />
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/recipes' element={<Recipes />} />
+          <Route path='/signIn' element={<SignIn />} />
+          <Route path='/signUp' element={<SignUp />} />
+          <Route path='/resetPassword' element={<ResetPassword />} />
+          <Route path="*" element={<NotFound/>} />
         </Routes>
       </div>
       <Footer />
