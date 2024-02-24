@@ -14,7 +14,7 @@ function App() {
   return (
     <HashRouter>
       <Nav />
-      <div >
+      <div class='mb-5'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Home />} />
