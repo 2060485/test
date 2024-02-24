@@ -20,20 +20,20 @@ function Nav() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className={`nav-link ${activePage === '/' ? 'active' : ''}`} href="/" onClick={() => handleNavLinkClick('/')}>Home</a>
+                                <a className={`nav-link ${activePage === '/' ? 'active' : ''}`} href="/test/#/" onClick={() => handleNavLinkClick('/test/#/')}>Home</a>
                             </li>
                             <li  className="nav-item">
-                                <a className={`nav-link ${activePage === '/recipes' ? 'active' : ''}`} href="/recipes" onClick={() => handleNavLinkClick('/recipes')}>Recipes</a>
+                                <a className={`nav-link ${activePage === '/recipes' ? 'active' : ''}`} href="/test/#/recipes" onClick={() => handleNavLinkClick('/test/#/recipes')}>Recipes</a>
                             </li>
                         </ul>
                     </div>
                     <div className="collapse navbar-collapse justify-content-end" id='navbarNav'>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className={`nav-link ${activePage === '/profile' ? 'active' : ''}`} href="/profile" onClick={() => handleNavLinkClick('/profile')}>Profile</a>
+                                <a className={`nav-link ${activePage === '/profile' ? 'active' : ''}`} href="/test/#/profile" onClick={() => handleNavLinkClick('/test/#/profile')}>Profile</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${activePage === '/signIn' ? 'active' : ''}`} href="/signIn" onClick={() => handleNavLinkClick('/signIn')}>Sign in</a>
+                                <a className={`nav-link ${activePage === '/signIn' ? 'active' : ''}`} href="/test/#/signIn" onClick={() => handleNavLinkClick('/test/#/signIn')}>Sign in</a>
                             </li>
                         </ul>
                     </div>
